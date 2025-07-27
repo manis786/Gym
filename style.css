@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Gym";
+    src: url("./Assets/Font/Sansation-Regular.ttf");
+}
+
+.NavBar {
+    background-color: black;
+    display: flex;
+
+}
+
+.NavRight ul {
+    margin-left: 1000px;
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 60px;
+    font-family: "Gym";
+}
+
+.NavRight li:hover {
+    cursor: pointer;
+    color: cadetblue;
+}
+
+.NavLeft img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.HeroSection {
+    display: flex;
+    background-color: black;
+    position: relative;
+}
+
+.HeroRight {
+    position: absolute;
+    left: 951px;
+}
+
+.HeroLeft h1 {
+    margin-top: 200px;
+
+    margin-left: 50px;
+    color: white;
+    font-family: "Gym";
+    font-size: 42pt;
+}
+
+.HeroLeft button {
+    margin-top: 50px;
+    margin-bottom: 440px;
+    margin-left: 50px;
+    background-color: yellow;
+    width: 140px;
+    font-family: "Gym";
+    font-size: medium;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 17px;
+}
