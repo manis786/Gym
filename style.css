@@ -67,12 +67,17 @@
 .ContentDetails {
     margin-left: 100px;
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+   
 }
 .Contents {
     color: white;
     font-family: "Gym";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+
 }
 .ContentHead h1 {
     padding-top: 180px;
@@ -81,4 +86,18 @@
     font-size: 52pt;
     font-family: "Gym";
     color: white;
+}
+.Contents .Logo  {
+    margin-top: 20px;
+}
+.Contents .Logo {
+    max-width: 60px;
+}
+.Contents .Heading {
+    margin-top: 20px;
+    margin-left: -380px;
+}
+.Contents p {
+    margin-left: 70px;
+    margin-top: -40px;
 }
