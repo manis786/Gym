@@ -37,7 +37,7 @@
 
 .HeroRight {
     position: absolute;
-    left: 951px;
+    left: 930px;
 }
 
 .HeroLeft h1 {
@@ -60,4 +60,25 @@
     font-weight: 600;
     height: 40px;
     border-radius: 17px;
+}
+.ContentSec {
+    background-color: black;
+}
+.ContentDetails {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.Contents {
+    color: white;
+    font-family: "Gym";
+}
+.ContentHead h1 {
+    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    font-size: 52pt;
+    font-family: "Gym";
+    color: white;
 }
