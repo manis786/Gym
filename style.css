@@ -61,16 +61,19 @@
     height: 40px;
     border-radius: 17px;
 }
+
 .ContentSec {
     background-color: black;
 }
+
 .ContentDetails {
     margin-left: 100px;
     margin-top: 50px;
-   display: grid;
-   grid-template-columns: 2fr 2fr;
-   
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
 }
+
 .Contents {
     color: white;
     font-family: "Gym";
@@ -79,6 +82,7 @@
     justify-content: flex-start;
 
 }
+
 .ContentHead h1 {
     padding-top: 180px;
     padding-bottom: 50px;
@@ -87,17 +91,61 @@
     font-family: "Gym";
     color: white;
 }
-.Contents .Logo  {
+
+.Contents .Logo {
     margin-top: 20px;
 }
+
 .Contents .Logo {
     max-width: 60px;
 }
+
 .Contents .Heading {
     margin-top: 20px;
     margin-left: -380px;
 }
+
 .Contents p {
     margin-left: 80px;
     margin-top: -30px;
+}
+
+.Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 40px;
+    margin-left: 380px;
+    max-width: 1200px;
+    margin-top: 50px;
+    
+}
+
+.CardSection {
+    padding-top: 80px;
+    background-color: black;
+    font-family: "Gym";
+}
+
+.card {
+    background-color: #222222 !important;
+    color: white !important;
+
+}
+.Cards .Title ,.Cards .Price {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20pt;
+}
+.CardDetails p {
+    padding-left: 10px;
+}
+.CardDetails button {
+    background: yellow;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
